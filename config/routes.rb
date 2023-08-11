@@ -5,4 +5,10 @@ Rails.application.routes.draw do
   # root "articles#index"
   get "/users/:id" => "users#show"
   get "/users" => "users#index"
+
+  get "/orders/:id" => "orders#show"
+  get "/orders" => "orders#index"
+
+  get "/clowns/:id" => "clowns#show"
+  get "/clowns" => "clowns#index"
 end
