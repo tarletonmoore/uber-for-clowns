@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+# user = User.create(username: "Mr Pickles", password: "password")
+# user = User.create(username: "Smith", password: "password")
+
+# clown = Clown.create(name: "Pogo")
+# clown = Clown.create(name: "Pennywise")
+# clown = Clown.create(name: "Bozo")
+
+# order = Order.create(user_id: 1, clown_id: 1)
+# order = Order.create(user_id: 2, clown_id: 3)
+# order = Order.create(user_id: 1, clown_id: 2)
